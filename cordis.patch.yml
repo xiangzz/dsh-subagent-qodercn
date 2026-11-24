@@ -1,0 +1,9 @@
+- insert:
+    - id: subagent-qodercn
+      name: 'dsh-subagent-qodercn'
+    - id: tool-subagent-qodercn
+      name: '@deepseek-ai/dsh-tool-subagent'
+      config:
+        provider: qodercn
+        toolName: subagent_qodercn
+        maxDepth: provider-managed

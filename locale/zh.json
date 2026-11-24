@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Qoder CLI CN 子智能体",
+    "description": "每次调用把一个自包含的任务委派给在任务工作目录中全新启动的 Qoder CLI CN 智能体（通过 ACP 协议通信），只返回它的最终回答或安全的失败诊断。Qoder 自己的登录、设置、记忆、技能和 MCP 服务器照常生效。需要已安装并登录 Qoder CLI CN（qoderclicn）。权限请求自动应答：Qoder 的 auto 模式处理安全的读取和编辑，剩余的确认请求默认拒绝，除非配置 permission: allow。"
+  }
+}

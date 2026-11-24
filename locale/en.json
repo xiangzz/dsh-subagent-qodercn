@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Qoder CLI CN subagent",
+    "description": "Delegates one self-contained task per call to a fresh Qoder CLI CN agent running in the task's working directory, over the Agent Client Protocol (ACP), and returns only its final answer or a safe failure. Qoder's own login, settings, memory, skills, and MCP servers stay in effect. Requires Qoder CLI CN (qoderclicn) to be installed and signed in. Permission prompts are answered automatically: Qoder's `auto` mode handles safe reads and edits, and any remaining prompt is rejected unless `permission: allow` is configured."
+  }
+}
