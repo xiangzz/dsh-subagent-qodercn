@@ -4,6 +4,10 @@
   "description": "One-shot Qoder CLI CN subagent provider for DeepSeek Harness over the ACP (Agent Client Protocol) stdio transport",
   "author": "xiangzz",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/xiangzz/dsh-subagent-qodercn.git"
